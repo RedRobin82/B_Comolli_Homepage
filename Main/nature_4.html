@@ -1,0 +1,191 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natur - Brigitte Comolli</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            overflow-x: hidden;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-gap: 15px;
+        }
+        .grid-container img {
+            width: 100%;
+            height: auto;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+        .grid-container img:hover {
+            transform: scale(1.05);
+        }
+        .overlay-carousel {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.9);
+            z-index: 1050;
+            justify-content: center;
+            align-items: center;
+        }
+        .overlay-carousel.active {
+            display: flex;
+        }
+        .carousel-inner img {
+            max-height: 80vh;
+            object-fit: contain;
+        }
+        .close-overlay {
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            font-size: 2rem;
+            color: white;
+            cursor: pointer;
+            z-index: 1060;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-4">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="brigitte_comolli_main.html">Brigitte Comolli</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="ueber-mich.html">Über mich</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="mailto:bcomolli@gmx.ch">Kontakt</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Natur Page Content -->
+    <div class="container my-5">
+        <h2>Natur</h2>
+        <div class="grid-container">
+            <img src="https://raw.githubusercontent.com/RedRobin82/B_Comolli_Homepage/main/Images/Natur/200.jpg" class="carousel-trigger" data-bs-target="#overlayCarousel" data-bs-slide-to="0" alt="Nature Image 1">
+<img src="https://raw.githubusercontent.com/RedRobin82/B_Comolli_Homepage/main/Images/Natur/500.jpg" class="carousel-trigger" data-bs-target="#overlayCarousel" data-bs-slide-to="1" alt="Nature Image 2">
+<img src="https://raw.githubusercontent.com/RedRobin82/B_Comolli_Homepage/main/Images/Natur/Bilder_mami%20047.jpg" class="carousel-trigger" data-bs-target="#overlayCarousel" data-bs-slide-to="2" alt="Nature Image 3">
+<img src="https://raw.githubusercontent.com/RedRobin82/B_Comolli_Homepage/main/Images/Natur/Bilder_mami%20048.jpg" class="carousel-trigger" data-bs-target="#overlayCarousel" data-bs-slide-to="3" alt="Nature Image 4">
+<img src="https://raw.githubusercontent.com/RedRobin82/B_Comolli_Homepage/main/Images/Natur/Bilder_mami%20050.jpg" class="carousel-trigger" data-bs-target="#overlayCarousel" data-bs-slide-to="4" alt="Nature Image 5">
+<img src="https://raw.githubusercontent.com/RedRobin82/B_Comolli_Homepage/main/Images/Natur/Bilder_mami%20052.jpg" class="carousel-trigger" data-bs-target="#overlayCarousel" data-bs-slide-to="5" alt="Nature Image 6">
+<img src="https://raw.githubusercontent.com/RedRobin82/B_Comolli_Homepage/main/Images/Natur/Bilder_mami%20054.jpg" class="carousel-trigger" data-bs-target="#overlayCarousel" data-bs-slide-to="6" alt="Nature Image 7">
+<img src="https://raw.githubusercontent.com/RedRobin82/B_Comolli_Homepage/main/Images/Natur/Bilder_mami%20056.jpg" class="carousel-trigger" data-bs-target="#overlayCarousel" data-bs-slide-to="7" alt="Nature Image 8">
+<img src="https://raw.githubusercontent.com/RedRobin82/B_Comolli_Homepage/main/Images/Natur/Bilder_mami%20060.jpg" class="carousel-trigger" data-bs-target="#overlayCarousel" data-bs-slide-to="8" alt="Nature Image 9">
+<img src="https://raw.githubusercontent.com/RedRobin82/B_Comolli_Homepage/main/Images/Natur/Bilder_mami%20062.jpg" class="carousel-trigger" data-bs-target="#overlayCarousel" data-bs-slide-to="9" alt="Nature Image 10">
+<img src="https://raw.githubusercontent.com/RedRobin82/B_Comolli_Homepage/main/Images/Natur/Bilder_mami%20075.jpg" class="carousel-trigger" data-bs-target="#overlayCarousel" data-bs-slide-to="10" alt="Nature Image 11">
+<img src="https://raw.githubusercontent.com/RedRobin82/B_Comolli_Homepage/main/Images/Natur/Bilder_mami%20076.jpg" class="carousel-trigger" data-bs-target="#overlayCarousel" data-bs-slide-to="11" alt="Nature Image 12">
+<img src="https://raw.githubusercontent.com/RedRobin82/B_Comolli_Homepage/main/Images/Natur/Bilder_mami%20079.jpg" class="carousel-trigger" data-bs-target="#overlayCarousel" data-bs-slide-to="12" alt="Nature Image 13">
+<img src="https://raw.githubusercontent.com/RedRobin82/B_Comolli_Homepage/main/Images/Natur/Bilder_mami%20080.jpg" class="carousel-trigger" data-bs-target="#overlayCarousel" data-bs-slide-to="13" alt="Nature Image 14">
+<img src="https://raw.githubusercontent.com/RedRobin82/B_Comolli_Homepage/main/Images/Natur/Bilder_mami%20081.jpg" class="carousel-trigger" data-bs-target="#overlayCarousel" data-bs-slide-to="14" alt="Nature Image 15">
+<img src="https://raw.githubusercontent.com/RedRobin82/B_Comolli_Homepage/main/Images/Natur/Bilder_mami%20082.jpg" class="carousel-trigger" data-bs-target="#overlayCarousel" data-bs-slide-to="15" alt="Nature Image 16">
+<img src="https://raw.githubusercontent.com/RedRobin82/B_Comolli_Homepage/main/Images/Natur/Bilder_mami%20087.jpg" class="carousel-trigger" data-bs-target="#overlayCarousel" data-bs-slide-to="16" alt="Nature Image 17">
+<img src="https://raw.githubusercontent.com/RedRobin82/B_Comolli_Homepage/main/Images/Natur/Bilder_mami%20099.jpg" class="carousel-trigger" data-bs-target="#overlayCarousel" data-bs-slide-to="17" alt="Nature Image 18">
+<img src="https://raw.githubusercontent.com/RedRobin82/B_Comolli_Homepage/main/Images/Natur/Bilder_mami%20101.jpg" class="carousel-trigger" data-bs-target="#overlayCarousel" data-bs-slide-to="18" alt="Nature Image 19">
+<img src="https://raw.githubusercontent.com/RedRobin82/B_Comolli_Homepage/main/Images/Natur/Bilder_mami%20102.jpg" class="carousel-trigger" data-bs-target="#overlayCarousel" data-bs-slide-to="19" alt="Nature Image 20">
+<img src="https://raw.githubusercontent.com/RedRobin82/B_Comolli_Homepage/main/Images/Natur/Bilder_mami%20104.jpg" class="carousel-trigger" data-bs-target="#overlayCarousel" data-bs-slide-to="20" alt="Nature Image 21">
+<img src="https://raw.githubusercontent.com/RedRobin82/B_Comolli_Homepage/main/Images/Natur/Bilder_mami%20107.jpg" class="carousel-trigger" data-bs-target="#overlayCarousel" data-bs-slide-to="21" alt="Nature Image 22">
+<img src="https://raw.githubusercontent.com/RedRobin82/B_Comolli_Homepage/main/Images/Natur/Bilder_mami%20108.jpg" class="carousel-trigger" data-bs-target="#overlayCarousel" data-bs-slide-to="22" alt="Nature Image 23">
+<img src="https://raw.githubusercontent.com/RedRobin82/B_Comolli_Homepage/main/Images/Natur/Bilder_mami%20109.jpg" class="carousel-trigger" data-bs-target="#overlayCarousel" data-bs-slide-to="23" alt="Nature Image 24">
+<img src="https://raw.githubusercontent.com/RedRobin82/B_Comolli_Homepage/main/Images/Natur/Bilder_mami%20111.jpg" class="carousel-trigger" data-bs-target="#overlayCarousel" data-bs-slide-to="24" alt="Nature Image 25">
+<img src="https://raw.githubusercontent.com/RedRobin82/B_Comolli_Homepage/main/Images/Natur/IMG_1879.jpg" class="carousel-trigger" data-bs-target="#overlayCarousel" data-bs-slide-to="25" alt="Nature Image 26">
+<img src="https://raw.githubusercontent.com/RedRobin82/B_Comolli_Homepage/main/Images/Natur/IMG_1889.jpg" class="carousel-trigger" data-bs-target="#overlayCarousel" data-bs-slide-to="26" alt="Nature Image 27">
+<img src="https://raw.githubusercontent.com/RedRobin82/B_Comolli_Homepage/main/Images/Natur/IMG_1905.jpg" class="carousel-trigger" data-bs-target="#overlayCarousel" data-bs-slide-to="27" alt="Nature Image 28">
+<img src="https://raw.githubusercontent.com/RedRobin82/B_Comolli_Homepage/main/Images/Natur/IMG_1914.jpg" class="carousel-trigger" data-bs-target="#overlayCarousel" data-bs-slide-to="28" alt="Nature Image 29">
+<img src="https://raw.githubusercontent.com/RedRobin82/B_Comolli_Homepage/main/Images/Natur/IMG_1916.jpg" class="carousel-trigger" data-bs-target="#overlayCarousel" data-bs-slide-to="29" alt="Nature Image 30">
+<img src="https://raw.githubusercontent.com/RedRobin82/B_Comolli_Homepage/main/Images/Natur/Bilder_mami%20053.jpg" class="carousel-trigger" data-bs-target="#overlayCarousel" data-bs-slide-to="30" alt="Nature Image 31">
+        </div>
+    </div>
+
+    <!-- Overlay Carousel -->
+    <div id="overlayCarousel" class="overlay-carousel">
+        <div class="close-overlay" onclick="closeOverlay()">&times;</div>
+        <div class="carousel slide" id="carouselIndicators">
+            <div class="carousel-inner">
+                <div class="carousel-item"><img src="https://raw.githubusercontent.com/RedRobin82/B_Comolli_Homepage/main/Images/Natur/200.jpg" class="d-block w-100" alt="Nature Image 1"></div>
+<div class="carousel-item"><img src="https://raw.githubusercontent.com/RedRobin82/B_Comolli_Homepage/main/Images/Natur/500.jpg" class="d-block w-100" alt="Nature Image 2"></div>
+<div class="carousel-item"><img src="https://raw.githubusercontent.com/RedRobin82/B_Comolli_Homepage/main/Images/Natur/Bilder_mami%20047.jpg" class="d-block w-100" alt="Nature Image 3"></div>
+<div class="carousel-item"><img src="https://raw.githubusercontent.com/RedRobin82/B_Comolli_Homepage/main/Images/Natur/Bilder_mami%20048.jpg" class="d-block w-100" alt="Nature Image 4"></div>
+<div class="carousel-item"><img src="https://raw.githubusercontent.com/RedRobin82/B_Comolli_Homepage/main/Images/Natur/Bilder_mami%20050.jpg" class="d-block w-100" alt="Nature Image 5"></div>
+<div class="carousel-item"><img src="https://raw.githubusercontent.com/RedRobin82/B_Comolli_Homepage/main/Images/Natur/Bilder_mami%20052.jpg" class="d-block w-100" alt="Nature Image 6"></div>
+<div class="carousel-item"><img src="https://raw.githubusercontent.com/RedRobin82/B_Comolli_Homepage/main/Images/Natur/Bilder_mami%20054.jpg" class="d-block w-100" alt="Nature Image 7"></div>
+<div class="carousel-item"><img src="https://raw.githubusercontent.com/RedRobin82/B_Comolli_Homepage/main/Images/Natur/Bilder_mami%20056.jpg" class="d-block w-100" alt="Nature Image 8"></div>
+<div class="carousel-item"><img src="https://raw.githubusercontent.com/RedRobin82/B_Comolli_Homepage/main/Images/Natur/Bilder_mami%20060.jpg" class="d-block w-100" alt="Nature Image 9"></div>
+<div class="carousel-item"><img src="https://raw.githubusercontent.com/RedRobin82/B_Comolli_Homepage/main/Images/Natur/Bilder_mami%20062.jpg" class="d-block w-100" alt="Nature Image 10"></div>
+<div class="carousel-item"><img src="https://raw.githubusercontent.com/RedRobin82/B_Comolli_Homepage/main/Images/Natur/Bilder_mami%20075.jpg" class="d-block w-100" alt="Nature Image 11"></div>
+<div class="carousel-item"><img src="https://raw.githubusercontent.com/RedRobin82/B_Comolli_Homepage/main/Images/Natur/Bilder_mami%20076.jpg" class="d-block w-100" alt="Nature Image 12"></div>
+<div class="carousel-item"><img src="https://raw.githubusercontent.com/RedRobin82/B_Comolli_Homepage/main/Images/Natur/Bilder_mami%20079.jpg" class="d-block w-100" alt="Nature Image 13"></div>
+<div class="carousel-item"><img src="https://raw.githubusercontent.com/RedRobin82/B_Comolli_Homepage/main/Images/Natur/Bilder_mami%20080.jpg" class="d-block w-100" alt="Nature Image 14"></div>
+<div class="carousel-item"><img src="https://raw.githubusercontent.com/RedRobin82/B_Comolli_Homepage/main/Images/Natur/Bilder_mami%20081.jpg" class="d-block w-100" alt="Nature Image 15"></div>
+<div class="carousel-item"><img src="https://raw.githubusercontent.com/RedRobin82/B_Comolli_Homepage/main/Images/Natur/Bilder_mami%20082.jpg" class="d-block w-100" alt="Nature Image 16"></div>
+<div class="carousel-item"><img src="https://raw.githubusercontent.com/RedRobin82/B_Comolli_Homepage/main/Images/Natur/Bilder_mami%20087.jpg" class="d-block w-100" alt="Nature Image 17"></div>
+<div class="carousel-item"><img src="https://raw.githubusercontent.com/RedRobin82/B_Comolli_Homepage/main/Images/Natur/Bilder_mami%20099.jpg" class="d-block w-100" alt="Nature Image 18"></div>
+<div class="carousel-item"><img src="https://raw.githubusercontent.com/RedRobin82/B_Comolli_Homepage/main/Images/Natur/Bilder_mami%20101.jpg" class="d-block w-100" alt="Nature Image 19"></div>
+<div class="carousel-item"><img src="https://raw.githubusercontent.com/RedRobin82/B_Comolli_Homepage/main/Images/Natur/Bilder_mami%20102.jpg" class="d-block w-100" alt="Nature Image 20"></div>
+<div class="carousel-item"><img src="https://raw.githubusercontent.com/RedRobin82/B_Comolli_Homepage/main/Images/Natur/Bilder_mami%20104.jpg" class="d-block w-100" alt="Nature Image 21"></div>
+<div class="carousel-item"><img src="https://raw.githubusercontent.com/RedRobin82/B_Comolli_Homepage/main/Images/Natur/Bilder_mami%20107.jpg" class="d-block w-100" alt="Nature Image 22"></div>
+<div class="carousel-item"><img src="https://raw.githubusercontent.com/RedRobin82/B_Comolli_Homepage/main/Images/Natur/Bilder_mami%20108.jpg" class="d-block w-100" alt="Nature Image 23"></div>
+<div class="carousel-item"><img src="https://raw.githubusercontent.com/RedRobin82/B_Comolli_Homepage/main/Images/Natur/Bilder_mami%20109.jpg" class="d-block w-100" alt="Nature Image 24"></div>
+<div class="carousel-item"><img src="https://raw.githubusercontent.com/RedRobin82/B_Comolli_Homepage/main/Images/Natur/Bilder_mami%20111.jpg" class="d-block w-100" alt="Nature Image 25"></div>
+<div class="carousel-item"><img src="https://raw.githubusercontent.com/RedRobin82/B_Comolli_Homepage/main/Images/Natur/IMG_1879.jpg" class="d-block w-100" alt="Nature Image 26"></div>
+<div class="carousel-item"><img src="https://raw.githubusercontent.com/RedRobin82/B_Comolli_Homepage/main/Images/Natur/IMG_1889.jpg" class="d-block w-100" alt="Nature Image 27"></div>
+<div class="carousel-item"><img src="https://raw.githubusercontent.com/RedRobin82/B_Comolli_Homepage/main/Images/Natur/IMG_1905.jpg" class="d-block w-100" alt="Nature Image 28"></div>
+<div class="carousel-item"><img src="https://raw.githubusercontent.com/RedRobin82/B_Comolli_Homepage/main/Images/Natur/IMG_1914.jpg" class="d-block w-100" alt="Nature Image 29"></div>
+<div class="carousel-item"><img src="https://raw.githubusercontent.com/RedRobin82/B_Comolli_Homepage/main/Images/Natur/IMG_1916.jpg" class="d-block w-100" alt="Nature Image 30"></div>
+<div class="carousel-item"><img src="https://raw.githubusercontent.com/RedRobin82/B_Comolli_Homepage/main/Images/Natur/Bilder_mami%20053.jpg" class="d-block w-100" alt="Nature Image 31"></div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <script>
+        const overlay = document.getElementById('overlayCarousel');
+        const carouselTriggers = document.querySelectorAll('.carousel-trigger');
+        const carouselItems = document.querySelectorAll('.carousel-item');
+
+        // Ensure overlay opens only on click and starts inactive
+        carouselTriggers.forEach((trigger, index) => {
+            trigger.addEventListener('click', () => {
+                carouselItems.forEach((item) => item.classList.remove('active')); // Remove all active classes
+                carouselItems[index].classList.add('active'); // Set clicked item as active
+                overlay.classList.add('active'); // Show the overlay
+            });
+        });
+
+        function closeOverlay() {
+            overlay.classList.remove('active'); // Hide the overlay
+        }
+
+        // Close the overlay when the "Esc" key is pressed
+        document.addEventListener('keydown', (event) => {
+            if (event.key === "Escape" && overlay.classList.contains('active')) {
+                closeOverlay();
+            }
+        });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
