@@ -1,0 +1,492 @@
+{
+  "categories": {
+    "abstrakt": {
+      "title": "Abstrakt",
+      "folder": "Abstrakt",
+      "page": "abstract.html",
+      "cover": "070_Titelbild.jpg",
+      "images": [
+        {
+          "file": "051.jpg",
+          "alt": "051"
+        },
+        {
+          "file": "057.jpg",
+          "alt": "057"
+        },
+        {
+          "file": "058.jpg",
+          "alt": "058"
+        },
+        {
+          "file": "061.jpg",
+          "alt": "061"
+        },
+        {
+          "file": "070_Titelbild.jpg",
+          "alt": "070_Titelbild"
+        },
+        {
+          "file": "071.jpg",
+          "alt": "071"
+        },
+        {
+          "file": "073.jpg",
+          "alt": "073"
+        },
+        {
+          "file": "077.jpg",
+          "alt": "077"
+        },
+        {
+          "file": "084.jpg",
+          "alt": "084"
+        },
+        {
+          "file": "086.jpg",
+          "alt": "086"
+        },
+        {
+          "file": "089.jpg",
+          "alt": "089"
+        },
+        {
+          "file": "103.jpg",
+          "alt": "103"
+        },
+        {
+          "file": "105.jpg",
+          "alt": "105"
+        },
+        {
+          "file": "IMG_1900.jpg",
+          "alt": "IMG_1900"
+        },
+        {
+          "file": "IMG_1902.jpg",
+          "alt": "IMG_1902"
+        },
+        {
+          "file": "IMG_1906.jpg",
+          "alt": "IMG_1906"
+        },
+        {
+          "file": "IMG_1917.jpg",
+          "alt": "IMG_1917"
+        },
+        {
+          "file": "Weiss 1_50x50.jpg",
+          "alt": "Weiss 1"
+        },
+        {
+          "file": "Weiss 2_50x50.jpg",
+          "alt": "Weiss 2"
+        }
+      ]
+    },
+    "natur": {
+      "title": "Natur",
+      "folder": "Natur",
+      "page": "nature.html",
+      "cover": "Bilder_mami 052_Titelbild.jpg",
+      "images": [
+        {
+          "file": "Apfel.jpg",
+          "alt": "Apfel"
+        },
+        {
+          "file": "IMG_7244.jpeg",
+          "alt": "IMG_7244"
+        },
+        {
+          "file": "Berge_Oel.jpg",
+          "alt": "Berge_Oel"
+        },
+        {
+          "file": "Bilder_mami 054.jpg",
+          "alt": "Bilder_mami 054"
+        },
+        {
+          "file": "IMG_5585.jpeg",
+          "alt": "IMG_5585"
+        },
+        {
+          "file": "Bilder_mami 047.jpg",
+          "alt": "Bilder_mami 047"
+        },
+        {
+          "file": "Bilder_mami 048.jpg",
+          "alt": "Bilder_mami 048"
+        },
+        {
+          "file": "Bilder_mami 050.jpg",
+          "alt": "Bilder_mami 050"
+        },
+        {
+          "file": "Bilder_mami 052_Titelbild.jpg",
+          "alt": "Bilder_mami 052_Titelbild"
+        },
+        {
+          "file": "Bilder_mami 056.jpg",
+          "alt": "Bilder_mami 056"
+        },
+        {
+          "file": "Bilder_mami 060.jpg",
+          "alt": "Bilder_mami 060"
+        },
+        {
+          "file": "Bilder_mami 062.jpg",
+          "alt": "Bilder_mami 062"
+        },
+        {
+          "file": "Bilder_mami 075.jpg",
+          "alt": "Bilder_mami 075"
+        },
+        {
+          "file": "Bilder_mami 076.jpg",
+          "alt": "Bilder_mami 076"
+        },
+        {
+          "file": "Bilder_mami 079.jpg",
+          "alt": "Bilder_mami 079"
+        },
+        {
+          "file": "Bilder_mami 080.jpg",
+          "alt": "Bilder_mami 080"
+        },
+        {
+          "file": "Bilder_mami 081.jpg",
+          "alt": "Bilder_mami 081"
+        },
+        {
+          "file": "Bilder_mami 082.jpg",
+          "alt": "Bilder_mami 082"
+        },
+        {
+          "file": "Bilder_mami 087.jpg",
+          "alt": "Bilder_mami 087"
+        },
+        {
+          "file": "Bilder_mami 099.jpg",
+          "alt": "Bilder_mami 099"
+        },
+        {
+          "file": "Bilder_mami 101.jpg",
+          "alt": "Bilder_mami 101"
+        },
+        {
+          "file": "Bilder_mami 102.jpg",
+          "alt": "Bilder_mami 102"
+        },
+        {
+          "file": "Bilder_mami 104.jpg",
+          "alt": "Bilder_mami 104"
+        },
+        {
+          "file": "Bilder_mami 107.jpg",
+          "alt": "Bilder_mami 107"
+        },
+        {
+          "file": "Bilder_mami 108.jpg",
+          "alt": "Bilder_mami 108"
+        },
+        {
+          "file": "Bilder_mami 109.jpg",
+          "alt": "Bilder_mami 109"
+        },
+        {
+          "file": "Bilder_mami 111.jpg",
+          "alt": "Bilder_mami 111"
+        },
+        {
+          "file": "IMG_1879.jpg",
+          "alt": "IMG_1879"
+        },
+        {
+          "file": "IMG_1889.jpg",
+          "alt": "IMG_1889"
+        },
+        {
+          "file": "IMG_1899.jpg",
+          "alt": "IMG_1899"
+        },
+        {
+          "file": "IMG_1905.jpg",
+          "alt": "IMG_1905"
+        },
+        {
+          "file": "IMG_1914.jpg",
+          "alt": "IMG_1914"
+        },
+        {
+          "file": "IMG_1916.jpg",
+          "alt": "IMG_1916"
+        },
+        {
+          "file": "Bilder_mami 053.jpg",
+          "alt": "Bilder_mami 053"
+        },
+        {
+          "file": "Eisfeld.jpg",
+          "alt": "Eisfeld"
+        },
+        {
+          "file": "IMG_2248.jpeg",
+          "alt": "IMG_2248"
+        },
+        {
+          "file": "IMG_2280.jpg",
+          "alt": "IMG_2280"
+        },
+        {
+          "file": "IMG_2382.jpg",
+          "alt": "IMG_2382"
+        },
+        {
+          "file": "IMG_2403.jpg",
+          "alt": "IMG_2403"
+        },
+        {
+          "file": "IMG_3084.jpeg",
+          "alt": "IMG_3084"
+        },
+        {
+          "file": "Samen rot.jpg",
+          "alt": "Samen rot"
+        },
+        {
+          "file": "Sommerwiese.jpg",
+          "alt": "Sommerwiese"
+        },
+        {
+          "file": "Suedfrankreich.jpg",
+          "alt": "Suedfrankreich"
+        },
+        {
+          "file": "Tibet.jpg",
+          "alt": "Tibet"
+        },
+        {
+          "file": "IMG_6469.jpeg",
+          "alt": "IMG_6469"
+        },
+        {
+          "file": "natur_orange.jpeg",
+          "alt": "Natur Orange"
+        }
+      ]
+    },
+    "poems": {
+      "title": "Poems",
+      "folder": "Poems",
+      "page": "poems.html",
+      "cover": "IMG_2346_Titelbild.jpg",
+      "images": [
+        {
+          "file": "Blaues Klavier 1.jpg",
+          "alt": "Blaues Klavier 1"
+        },
+        {
+          "file": "IMG_2288.jpg",
+          "alt": "IMG_2288"
+        },
+        {
+          "file": "IMG_2239.jpg",
+          "alt": "IMG_2239"
+        },
+        {
+          "file": "IMG_2271.jpg",
+          "alt": "IMG_2271"
+        },
+        {
+          "file": "IMG_2278.jpg",
+          "alt": "IMG_2278"
+        },
+        {
+          "file": "IMG_2286.jpeg",
+          "alt": "IMG_2286"
+        },
+        {
+          "file": "IMG_2287.jpg",
+          "alt": "IMG_2287"
+        },
+        {
+          "file": "IMG_2301.jpg",
+          "alt": "IMG_2301"
+        },
+        {
+          "file": "IMG_2313.jpg",
+          "alt": "IMG_2313"
+        },
+        {
+          "file": "IMG_2330.jpg",
+          "alt": "IMG_2330"
+        },
+        {
+          "file": "IMG_2333.jpg",
+          "alt": "IMG_2333"
+        },
+        {
+          "file": "IMG_2337.jpg",
+          "alt": "IMG_2337"
+        },
+        {
+          "file": "IMG_2341.JPG",
+          "alt": "IMG_2341"
+        },
+        {
+          "file": "IMG_2346_Titelbild.jpg",
+          "alt": "IMG_2346_Titelbild"
+        },
+        {
+          "file": "IMG_2347.jpg",
+          "alt": "IMG_2347"
+        },
+        {
+          "file": "IMG_2355.jpg",
+          "alt": "IMG_2355"
+        },
+        {
+          "file": "IMG_2442.JPG",
+          "alt": "IMG_2442"
+        },
+        {
+          "file": "IMG_2447.JPG",
+          "alt": "IMG_2447"
+        },
+        {
+          "file": "IMG_2453.JPG",
+          "alt": "IMG_2453"
+        },
+        {
+          "file": "IMG_2464.JPG",
+          "alt": "IMG_2464"
+        },
+        {
+          "file": "IMG_2478.JPG",
+          "alt": "IMG_2478"
+        },
+        {
+          "file": "IMG_4969.jpeg",
+          "alt": "IMG_4969"
+        },
+        {
+          "file": "IMG_6426.jpeg",
+          "alt": "IMG_6426"
+        },
+        {
+          "file": "poems_red.jpg",
+          "alt": "Poems Red"
+        }
+      ]
+    },
+    "pilatus": {
+      "title": "Pilatus",
+      "folder": "Pilatus",
+      "page": "pilatus.html",
+      "cover": "IMG_4153_Titelbild.jpeg",
+      "images": [
+        {
+          "file": "090.jpg",
+          "alt": "090"
+        },
+        {
+          "file": "092.jpg",
+          "alt": "092"
+        },
+        {
+          "file": "096.jpg",
+          "alt": "096"
+        },
+        {
+          "file": "097.jpg",
+          "alt": "097"
+        },
+        {
+          "file": "IMG_2281.jpg",
+          "alt": "IMG_2281"
+        },
+        {
+          "file": "IMG_2284.jpg",
+          "alt": "IMG_2284"
+        },
+        {
+          "file": "IMG_2412.jpg",
+          "alt": "IMG_2412"
+        },
+        {
+          "file": "IMG_4153_Titelbild.jpeg",
+          "alt": "IMG_4153_Titelbild"
+        },
+        {
+          "file": "IMG_9287.jpeg",
+          "alt": "IMG_9287"
+        },
+        {
+          "file": "IMG_7528.jpeg",
+          "alt": "IMG_7528"
+        },
+        {
+          "file": "IMG_7747.jpeg",
+          "alt": "IMG_7747"
+        },
+        {
+          "file": "IMG_8103.jpeg",
+          "alt": "IMG_8103"
+        }
+      ]
+    },
+    "movements": {
+      "title": "Movements",
+      "folder": "Movements",
+      "page": "movements.html",
+      "cover": "IMG_5857_Titelbild.jpeg",
+      "images": [
+        {
+          "file": "IMG_0003.jpeg",
+          "alt": "IMG_0003"
+        },
+        {
+          "file": "IMG_0771.jpeg",
+          "alt": "IMG_0771"
+        },
+        {
+          "file": "IMG_1674.jpeg",
+          "alt": "IMG_1674"
+        },
+        {
+          "file": "IMG_5857_Titelbild.jpeg",
+          "alt": "IMG_5857_Titelbild"
+        },
+        {
+          "file": "IMG_6957.jpeg",
+          "alt": "IMG_6957"
+        },
+        {
+          "file": "IMG_8955.jpeg",
+          "alt": "IMG_8955"
+        },
+        {
+          "file": "IMG_9286.jpeg",
+          "alt": "IMG_9286"
+        },
+        {
+          "file": "IMG_9498.jpeg",
+          "alt": "IMG_9498"
+        },
+        {
+          "file": "IMG_9903.jpeg",
+          "alt": "IMG_9903"
+        },
+        {
+          "file": "iphone+april+2012+018.jpg",
+          "alt": "iphone+april+2012+018"
+        },
+        {
+          "file": "schwimmerinnen.JPG",
+          "alt": "schwimmerinnen"
+        }
+      ]
+    }
+  }
+}

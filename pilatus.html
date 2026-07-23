@@ -6,55 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pilatus - Brigitte Comolli</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        body {
-            overflow-x: hidden;
-        }
-        .grid-container {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            grid-gap: 15px;
-        }
-        .grid-container img {
-            width: 100%;
-            height: auto;
-            cursor: pointer;
-            transition: transform 0.3s ease;
-        }
-        .grid-container img:hover {
-            transform: scale(1.05);
-        }
-        .overlay-carousel {
-            display: none;
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0.9);
-            z-index: 1050;
-            justify-content: center;
-            align-items: center;
-        }
-        .overlay-carousel.active {
-            display: flex;
-        }
-        .carousel-inner img {
-            max-height: 80vh;
-            object-fit: contain;
-        }
-        .close-overlay {
-            position: absolute;
-            top: 15px;
-            right: 20px;
-            font-size: 2rem;
-            color: white;
-            cursor: pointer;
-            z-index: 1060;
-        }
-    </style>
+    <link href="css/gallery.css" rel="stylesheet">
 </head>
-<body>
+<body data-gallery-category="pilatus">
     <nav class="navbar navbar-expand-lg navbar-light bg-white py-4">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">Brigitte Comolli</a>
@@ -64,7 +18,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="ueber-mich.html">Über mich</a>
+                        <a class="nav-link" href="ueber_mich.html">Über mich</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="mailto:bcomolli@gmx.ch">Kontakt</a>
@@ -74,43 +28,15 @@
         </div>
     </nav>
 
-    <!-- Pilatus Page Content -->
     <div class="container my-5">
-        <h2>Pilatus</h2>
-        <div class="grid-container">
-            <img src="https://github.com/RedRobin82/B_Comolli_Homepage/raw/3c348daab1d5acdc829fe70b54141ac91c4ff686/Images/Pilatus/090.jpg" class="carousel-trigger" data-bs-target="#overlayCarousel" data-bs-slide-to="0" alt="Pilatus Image 1">
-<img src="https://github.com/RedRobin82/B_Comolli_Homepage/raw/3c348daab1d5acdc829fe70b54141ac91c4ff686/Images/Pilatus/092.jpg" class="carousel-trigger" data-bs-target="#overlayCarousel" data-bs-slide-to="1" alt="Pilatus Image 2">
-<img src="https://github.com/RedRobin82/B_Comolli_Homepage/raw/3c348daab1d5acdc829fe70b54141ac91c4ff686/Images/Pilatus/096.jpg" class="carousel-trigger" data-bs-target="#overlayCarousel" data-bs-slide-to="2" alt="Pilatus Image 3">
-<img src="https://github.com/RedRobin82/B_Comolli_Homepage/raw/3c348daab1d5acdc829fe70b54141ac91c4ff686/Images/Pilatus/097.jpg" class="carousel-trigger" data-bs-target="#overlayCarousel" data-bs-slide-to="3" alt="Pilatus Image 4">
-<img src="https://github.com/RedRobin82/B_Comolli_Homepage/raw/af85130594e5efbb777e1f75244ed4b9d7ab5373/Images/Pilatus/IMG_2281.jpg" class="carousel-trigger" data-bs-target="#overlayCarousel" data-bs-slide-to="4" alt="Pilatus Image 5">
-<img src="https://github.com/RedRobin82/B_Comolli_Homepage/raw/af85130594e5efbb777e1f75244ed4b9d7ab5373/Images/Pilatus/IMG_2284.jpg" class="carousel-trigger" data-bs-target="#overlayCarousel" data-bs-slide-to="5" alt="Pilatus Image 6">
-<img src="https://github.com/RedRobin82/B_Comolli_Homepage/raw/af85130594e5efbb777e1f75244ed4b9d7ab5373/Images/Pilatus/IMG_2412.jpg" class="carousel-trigger" data-bs-target="#overlayCarousel" data-bs-slide-to="6" alt="Pilatus Image 7">
-<img src="https://github.com/RedRobin82/B_Comolli_Homepage/raw/af85130594e5efbb777e1f75244ed4b9d7ab5373/Images/Pilatus/IMG_4153_Titelbild.jpeg" class="carousel-trigger" data-bs-target="#overlayCarousel" data-bs-slide-to="7" alt="Pilatus Image 8">
-<img src="https://github.com/RedRobin82/B_Comolli_Homepage/raw/af85130594e5efbb777e1f75244ed4b9d7ab5373/Images/Pilatus/IMG_9287.jpeg" class="carousel-trigger" data-bs-target="#overlayCarousel" data-bs-slide-to="8" alt="Pilatus Image 9">
-<img src="https://github.com/RedRobin82/B_Comolli_Homepage/raw/84f39b8d9697896ce04031367f768c7eca1f66da/Images/Pilatus/IMG_7528.jpeg" class="carousel-trigger" data-bs-target="#overlayCarousel" data-bs-slide-to="9" alt="Pilatus Image 10">
-<img src="https://github.com/RedRobin82/B_Comolli_Homepage/raw/84f39b8d9697896ce04031367f768c7eca1f66da/Images/Pilatus/IMG_7747.jpeg" class="carousel-trigger" data-bs-target="#overlayCarousel" data-bs-slide-to="10" alt="Pilatus Image 11">
-<img src="https://github.com/RedRobin82/B_Comolli_Homepage/raw/dd8e810896fe244ef8aa9bf17917f3a06048e0ae/Images/Pilatus/IMG_8103.jpeg" class="carousel-trigger" data-bs-target="#overlayCarousel" data-bs-slide-to="11" alt="Pilatus Image 12">
-        </div>
+        <h2 id="galleryTitle">Pilatus</h2>
+        <div id="galleryGrid" class="grid-container"></div>
     </div>
 
-    <!-- Overlay Carousel -->
     <div id="overlayCarousel" class="overlay-carousel">
         <div class="close-overlay" onclick="closeOverlay()">&times;</div>
         <div class="carousel slide" id="carouselIndicators">
-            <div class="carousel-inner">
-                <div class="carousel-item"><img src="https://github.com/RedRobin82/B_Comolli_Homepage/raw/3c348daab1d5acdc829fe70b54141ac91c4ff686/Images/Pilatus/090.jpg" class="d-block w-100" alt="Pilatus Image 1"></div>
-<div class="carousel-item"><img src="https://github.com/RedRobin82/B_Comolli_Homepage/raw/3c348daab1d5acdc829fe70b54141ac91c4ff686/Images/Pilatus/092.jpg" class="d-block w-100" alt="Pilatus Image 2"></div>
-<div class="carousel-item"><img src="https://github.com/RedRobin82/B_Comolli_Homepage/raw/3c348daab1d5acdc829fe70b54141ac91c4ff686/Images/Pilatus/096.jpg" class="d-block w-100" alt="Pilatus Image 3"></div>
-<div class="carousel-item"><img src="https://github.com/RedRobin82/B_Comolli_Homepage/raw/3c348daab1d5acdc829fe70b54141ac91c4ff686/Images/Pilatus/097.jpg" class="d-block w-100" alt="Pilatus Image 4"></div>
-<div class="carousel-item"><img src="https://github.com/RedRobin82/B_Comolli_Homepage/raw/af85130594e5efbb777e1f75244ed4b9d7ab5373/Images/Pilatus/IMG_2281.jpg" class="d-block w-100" alt="Pilatus Image 5"></div>
-<div class="carousel-item"><img src="https://github.com/RedRobin82/B_Comolli_Homepage/raw/af85130594e5efbb777e1f75244ed4b9d7ab5373/Images/Pilatus/IMG_2284.jpg" class="d-block w-100" alt="Pilatus Image 6"></div>
-<div class="carousel-item"><img src="https://github.com/RedRobin82/B_Comolli_Homepage/raw/af85130594e5efbb777e1f75244ed4b9d7ab5373/Images/Pilatus/IMG_2412.jpg" class="d-block w-100" alt="Pilatus Image 7"></div>
-<div class="carousel-item"><img src="https://github.com/RedRobin82/B_Comolli_Homepage/raw/af85130594e5efbb777e1f75244ed4b9d7ab5373/Images/Pilatus/IMG_4153_Titelbild.jpeg" class="d-block w-100" alt="Pilatus Image 8"></div>
-<div class="carousel-item"><img src="https://github.com/RedRobin82/B_Comolli_Homepage/raw/af85130594e5efbb777e1f75244ed4b9d7ab5373/Images/Pilatus/IMG_9287.jpeg" class="d-block w-100" alt="Pilatus Image 9"></div>
-<div class="carousel-item"><img src="https://github.com/RedRobin82/B_Comolli_Homepage/raw/84f39b8d9697896ce04031367f768c7eca1f66da/Images/Pilatus/IMG_7528.jpeg" class="d-block w-100" alt="Pilatus Image 10"></div>
-<div class="carousel-item"><img src="https://github.com/RedRobin82/B_Comolli_Homepage/raw/84f39b8d9697896ce04031367f768c7eca1f66da/Images/Pilatus/IMG_7747.jpeg" class="d-block w-100" alt="Pilatus Image 11"></div>
-<div class="carousel-item"><img src="https://github.com/RedRobin82/B_Comolli_Homepage/raw/dd8e810896fe244ef8aa9bf17917f3a06048e0ae/Images/Pilatus/IMG_8103.jpeg" class="d-block w-100" alt="Pilatus Image 12"></div>
-            </div>
+            <div class="carousel-inner" id="carouselInner"></div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
@@ -122,32 +48,7 @@
         </div>
     </div>
 
-    <script>
-        const overlay = document.getElementById('overlayCarousel');
-        const carouselTriggers = document.querySelectorAll('.carousel-trigger');
-        const carouselItems = document.querySelectorAll('.carousel-item');
-
-        // Ensure overlay opens only on click and starts inactive
-        carouselTriggers.forEach((trigger, index) => {
-            trigger.addEventListener('click', () => {
-                carouselItems.forEach((item) => item.classList.remove('active')); // Remove all active classes
-                carouselItems[index].classList.add('active'); // Set clicked item as active
-                overlay.classList.add('active'); // Show the overlay
-            });
-        });
-
-        function closeOverlay() {
-            overlay.classList.remove('active'); // Hide the overlay
-        }
-
-        // Close the overlay when the "Esc" key is pressed
-        document.addEventListener('keydown', (event) => {
-            if (event.key === "Escape" && overlay.classList.contains('active')) {
-                closeOverlay();
-            }
-        });
-    </script>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/gallery.js"></script>
 </body>
 </html>
